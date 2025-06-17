@@ -1,0 +1,20 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, legend, input, textarea, button, p, blockquote, th, td{margin: 0;padding: 0;}
+body{ 
+    width: 7.5rem;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: '微软雅黑', 'Arial Narrow', Arial, sans-serif;
+    max-width: 750px;
+    margin:  0 auto;
+}
+ul,ol,li{ list-style: none;}
+a{text-decoration: none;}
+input,button,img{border: none;vertical-align: middle;}
+/* 移动端适配 750 */
+html{font-size: 13.33333333vw;}
+/* 防止字体过大 */
+@media (min-width:750px){
+    html{
+        font-size: 100px;
+    }
+}
